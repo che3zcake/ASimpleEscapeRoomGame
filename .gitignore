@@ -1,0 +1,36 @@
+# Node.js dependencies (monorepo root safety)
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables (IMPORTANT)
+.env
+.env.*            # .env.local, .env.production, etc.
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+.tmp
+.temp
+*.tmp
+
+# OS / Editor
+.vscode/
+.idea/
+*.swp
+
+# Build / Dist outputs (global safety)
+dist/
+build/
+out/
+coverage/
+
+# Docker
+docker-data/
