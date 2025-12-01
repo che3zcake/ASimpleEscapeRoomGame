@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cd test && npx jest",
     "dev": "npx tsc && node ./dist/index.js"
   },
   "keywords": [],
@@ -12,8 +12,15 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.5",
+    "cors": "^2.8.5",
     "express": "^5.1.0",
+    "jest": "^30.2.0",
+    "socketio": "^1.0.0",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1"
   }
 }
